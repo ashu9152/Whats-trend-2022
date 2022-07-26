@@ -1,0 +1,174 @@
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #8C92AC;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+li{
+    font-size: 15px;
+    font-family: Orbitron;
+    font-weight: 900;
+    color: var(--black);
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+img[alt="brand-logo"]{
+    margin-left: 10px;
+    height: 40px;
+    width: 120px;
+}
+
+.list{
+    margin-left: 35px;
+    list-style: none;
+}
+
+.list li{
+    display: inline-block;
+    padding: 0px 18px;
+}
+
+.button-group{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 10px;
+}
+
+.search-icon{
+    margin-right: 12px;
+    height: auto;
+    width: auto;
+}
+
+.nav-button{
+    padding: 7px 35px;
+    background-color: var(--white);
+    border: 3px solid --black;
+    border-radius: 13px;
+    font-family: Orbitron;
+    font-size: 16px;
+}
+
+.hero-container {
+position: relative;
+
+}
+
+img[alt="square-pattern"]{
+    height: 330px;
+    margin-top: 12%;
+    margin-left: 9%;
+}
+
+img[alt="person-hero-image"] {
+    height: 430px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+img[alt="globe-pattern"] {
+    position: absolute;
+    top: -80px;
+    height: 55px;
+}
+
+img[alt="star-pattern"] {
+    position: absolute;
+    top: -80%;
+    
+}
+
+.star{
+    height: 40px;
+    width: 45px;
+    position: absolute;
+    top: 48px;
+    left: 90%;
+}
+
+
+.globe{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+
+.hero-container-right{
+position: absolute;
+left: 40%;
+top:25%;
+text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Orbitron;
+    font-weight: 900;
+}
+
+.hero-description{
+    font-style: Orbitron;
+    font-size: 16px;
+    text-align: center;
+    color: var(--gray);
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.button-email{
+    margin-top: 45px;
+    padding: 7px 35px;
+    background-color: var(--white);
+    border: 2px 0 --black;
+    border-radius: 13px;
+    font-family: Orbitron;
+    font-size: 16px;
+}
+
+.button-join{
+    margin-left: 10px;
+    margin-top: 45px;
+    padding: 6px 24px;
+    background-color: var(--black);
+    border: 3px solid --black;
+    color: var(--white);
+    border-radius: 13px;
+    font-family: Orbitron;
+    font-size: 16px;
+}
+
+.contact-heading {
+    margin-top: 40px;
+    padding-top: 25px;
+    margin-left: 40px;
+    padding-right: 45px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.icons{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
